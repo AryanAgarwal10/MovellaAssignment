@@ -22,9 +22,9 @@ Running `Java file` requires:
 ## Instructions
 1. To Run the Java files
     ```
-    $ javac PasswordCheck.java
+    $ javac PasswordChecker1.java
     ```
-   same procedure for `FileParser.java`
+   same procedure for `FileParser2.java`
 2. The output files are already in the repository to test the program you can delete output file (DEBUFlog.txt,INFOlog.txt & ERRORlog.txt)
 3. You can also use your own log file but it should be copied into the root directory
 
@@ -32,19 +32,19 @@ Running `Java file` requires:
 
 ### Password checker
     ```
-    javac PasswordCheck.java
+    javac PasswordChecker1.java
     Enter the password
     Bc4
     Password Strength: LOW
     Password length should be atleast 8 characters
     Password should contain atleast 2 special characters
-    javac PasswordCheck.java
+    javac PasswordChecker1.java
     Enter the password
     Bc4@#$
     Password Strength: AVERAGE
     Password length should be atleast 8 characters
     Password should contain atleast 2 numbers
-    javac PasswordCheck.java
+    javac PasswordChecker1.java
     Enter the password
     Bc4@#$567
     Password Strength: VERY GOOD
@@ -52,11 +52,11 @@ Running `Java file` requires:
     ```
 ### File Parsing
     ```
-    javac FileParser.java
+    javac FileParser2.java
     Enter the file name
     abc
     File not found
-    javac FileParser.java
+    javac FileParser2.java
     Enter the file name
     log.txt  // will create file with required data
     Writting Done
@@ -64,4 +64,5 @@ Running `Java file` requires:
     ``
 ### SQL Queries
 
-Screenshots of solutions of these are in the `SQL Solutions` folder
+*Screenshots of solutions of these are in the `SQL Solutions` folder
+*The code of which is in `Solution3.sql` file
