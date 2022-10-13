@@ -64,5 +64,5 @@ Running `Java file` requires:
     ``
 ### SQL Queries
 
-*Screenshots of solutions of these are in the `SQL Solutions` folder
-*The code of which is in `Solution3.sql` file
+* Screenshots of solutions of these are in the `SQL Solutions` folder
+* The code of which is in `Solution3.sql` file
